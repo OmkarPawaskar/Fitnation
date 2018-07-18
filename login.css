@@ -1,0 +1,109 @@
+#head img{
+    display: block;
+    margin: 0 auto;
+    width: 337px;
+    height: 212px;
+}
+#head{
+    background: #F8F5F5;
+}
+#main{
+    width: 100%;
+    display: flex;
+}
+
+.first{
+    margin: 10px;
+    display: inline-block;
+    width:50%;
+}
+
+.second{
+    margin: 10px;
+    display: inline-block;
+    width: 50%;
+}
+
+/*LOGIN */
+/* Bordered form */
+form {
+    border: 3px solid #f1f1f1;
+   
+
+}
+.container label{
+    font-family: Helvetica, 'Helvetica Neue', 'Open Sans', Arial, sans-serif;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 14px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button  {
+    background-color: #ea542e;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+
+    border-right: 1px solid #ccc;
+    background-color: #f44336;
+    padding: 14px 20px;
+    margin: 8px 0;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+
+.container {
+    padding: 16px;
+
+}
+/* The "Forgot password" text */
+span.psw {
+    
+    padding-top: 16px;
+}
+
+
+
+/*REGISTER*/
+
+
+.register-head{
+    border-bottom: 1px solid #e5e5e5;
+    font-family: Helvetica, 'Helvetica Neue', 'Open Sans', Arial, sans-serif;
+}
+
+.container1 p{
+    font-family: Helvetica, 'Helvetica Neue', 'Open Sans', Arial, sans-serif;
+}
+
+.cancelbtn,.signupbtn{
+    float: left;
+    width: 50%;
+}

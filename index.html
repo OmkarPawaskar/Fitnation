@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width-device-width,initial-scale=1">
+	<title>Fitnation</title>
+	<link rel="stylesheet" type="text/css" href="primary.css">
+</head>
+<body>
+	<div id="container">
+		<nav>
+			
+			<div class= "menu-items" id="logo">
+				<a href=""><img  src="LOGO.png" alt="Fitnation logo"></a> 
+			</div>
+			<div id="menu-row">
+				<ul class="menu">
+					<div class= "menu-items">
+					<li><a href="#">Home</a>
+						<ul class="dropdown-content">
+						 	<li><a href="#">Daily Motivation</a></li>
+							<li><a href="#">Daily Workout</a></li>
+							<li><a href="#">Diet</a></li>
+							<li><a href="#">Shop</a></li>
+							<li><a href="#">Fitness Challenge</a>
+						</ul>
+					</li>
+					</div>
+					<div class= "menu-items">
+					<li><a href="#">Daily Motivation</a>
+						<ul class="dropdown-content">
+						 	<li><a href="#">1</a></li>
+							<li><a href="#">2</a></li>
+							<li><a href="#">3</a></li>
+							<li><a href="#">4</a></li>
+						</ul>
+					</li>
+					</div>
+					<div class= "menu-items">
+					<li><a href="#">Daily Workout</a>
+						<ul class="dropdown-content">
+						 	<li><a href="#">1</a></li>
+							<li><a href="#">2</a></li>
+							<li><a href="#">3</a></li>
+							<li><a href="#">4</a></li>
+						</ul>
+					</li>
+					</div>
+					<div class= "menu-items">
+					<li><a href="#">Diet</a>
+						<ul class="dropdown-content">
+						 	<li><a href="#">1</a></li>
+							<li><a href="#">2</a></li>
+							<li><a href="#">3</a></li>
+							<li><a href="#">4</a></li>
+						</ul>
+					</li>
+					</div>
+					<div class= "menu-items">
+					<li ><a href="#">Shop</a>
+						<ul class="dropdown-content">
+						 	<li><a href="#">1</a></li>
+							<li><a href="#">2</a></li>
+							<li><a href="#">3</a></li>
+							<li><a href="#">4</a></li>
+						</ul>
+					</li>
+					</div>
+					<div class= "menu-items">
+					<li><a href="#">Fitness Challenge</a>
+						<ul class="dropdown-content">
+						 	<li><a href="#">1</a></li>
+							<li><a href="#">2</a></li>
+							<li><a href="#">3</a></li>
+							<li><a href="#">4</a></li>
+						</ul>
+					</li>
+					</div>
+					<div class= "menu-items1">
+					<li>
+						<div class="search">
+							<form method="POST">
+								<input type="text" class="search-bar" name="Search" placeholder="Search for articles,products">
+								<button class="search-head" type="submit"></button>
+							</form>
+							
+							
+						</div>
+					</li>
+					</div>
+					<div class= "menu-items">
+					<li ><a href="login.html" target="_blank" class="selected">Login</a></li>
+					</div>
+				</ul>
+			</div>
+			<div class="clear"></div>
+		</nav>
+			
+		 <div class="slideshow-container">
+  			<div class="mySlides fade">
+			   	<div class="numbertext">1 / 3</div>
+			   	<img src="slideshow/1.jpg" style="width:100%">
+			   	<div class="text">Caption Text</div>
+  			</div>
+
+			<div class="mySlides fade">
+			   <div class="numbertext">2 / 3</div>
+			    <img src="slideshow/2.jpg" style="width:100%">
+			    <div class="text">Caption Two</div>
+		    </div>
+
+			<div class="mySlides fade">
+			    <div class="numbertext">3 / 3</div>
+			    <img src="slideshow/3.jpg" style="width:100%">
+			    <div class="text">Caption Three</div>
+			</div>
+
+			<div>
+			    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+			</div>
+			<br>
+
+			<div style="text-align:center">
+		    	  <span class="dot" onclick="currentSlide(1)"></span>
+				  <span class="dot" onclick="currentSlide(2)"></span>
+				  <span class="dot" onclick="currentSlide(3)"></span>
+			</div>
+
+	   		<script src="slideshow.js">
+
+			</script>	
+
+	
+		</div>
+		<div id = "main">
+			<h1>EXERCISE DAILY , EAT WELL AND STAY HEALTHY!</h1>
+			<p>And we are here to help!</p>
+			<p>Stay up-to-date with our latest articles on motivation,workouts and daily nutrition.</p>
+			<form method="POST" class="newsletter">
+				<input  type="text" name="email address" placeholder="Enter your email address" />
+				<button type="submit" >Sign me up!</button>
+			</form>
+
+
+		</div>
+		
+		<footer id="footer">
+			<div class="footer-section">
+				<div class="footer-section1 ">
+					<h3 class="footer-header">About us</h3>
+					<div>
+						 Gym is a perfect place for everyone to enjoy sports, bodybuilding, and fitness. With us you can reach your top 	physical condition! 
+					</div>
+				</div>
+				<div class="footer-section2">
+					<h3 class="footer-header">Contact us</h3>
+					<div class="social">
+						<!-- Add icon library -->
+						<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+						<!-- Add font awesome icons -->
+						<a href="#" class="fa fa-facebook"></a>
+						<a href="#" class="fa fa-google"></a>
+						<a href="#" class="fa fa-youtube"></a>
+						<a href="#" class="fa fa-instagram"></a>
+
+					</div>
+				</div>
+				<div class="footer-section3">
+					<h3 class="footer-header">Copyright</h3>
+					<p>2017 Fitnation.com All rights reserved.</p>
+
+				</div>
+			</div>
+			
+
+		</footer>
+	</div>
+
+</body>
+</html>
